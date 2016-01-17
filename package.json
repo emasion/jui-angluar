@@ -1,0 +1,49 @@
+{
+  "name": "jui-angular",
+  "version": "0.1.0",
+  "description": "JUI provide all kinds of UI components that are used in web pages. However, charts and grids are not included.",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080 --content-base src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emasion/jui-angular.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS",
+    "JS",
+    "JavaScript",
+    "framework",
+    "front-end",
+    "frontend",
+    "web development",
+    "free",
+    "MIT",
+    "Angular2",
+    "jui-angular",
+    "angular-componenets"
+  ],
+  "author": "emasion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emasion/jui-angular/issues"
+  },
+  "homepage": "http://blog.jui.io/",
+  "devDependencies": {
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-typescript": "^0.5.6"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "jui": "^2.0.1",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
+}
